@@ -10,7 +10,7 @@ Light cross-platform launcher for Firefox.
 
 [![NPM](https://nodei.co/npm/firefox-launch.png)](https://nodei.co/npm/firefox-launch/)
 
-### `process = spawn([options])`
+### `process = spawn(url, [options])`
 
 Spawns a new Firefox instance in a separate process using
 [`child_process.spawn`](http://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options).
