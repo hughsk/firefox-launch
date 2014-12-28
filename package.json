@@ -1,0 +1,45 @@
+{
+  "name": "firefox-launch",
+  "version": "1.0.0",
+  "description": "Light cross-platform launcher for Mozilla Firefox",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "firefox-location": "^1.0.0",
+    "mkdirp": "^0.5.0",
+    "quick-tmp": "0.0.0",
+    "rimraf": "^2.2.8",
+    "shallow-copy": "0.0.1"
+  },
+  "devDependencies": {
+    "is-running": "^1.0.5",
+    "leaked-handles": "^4.2.0",
+    "shell-quote": "^1.4.2",
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/firefox-launch.git"
+  },
+  "keywords": [
+    "firefox",
+    "browser",
+    "client",
+    "launch",
+    "process",
+    "spawn"
+  ],
+  "homepage": "https://github.com/hughsk/firefox-launch",
+  "bugs": {
+    "url": "https://github.com/hughsk/firefox-launch/issues"
+  }
+}
