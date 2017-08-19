@@ -22,6 +22,7 @@ Options include:
 * `args`: additional command-line arguments to pass to Firefox. See
   [here](https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options)
   for more information.
+* `firefoxBinary`: path to a custom Firefox binary.
 * `dir`: user configuration directory to use. By default, one will be
   created and then removed when the process is killed.
 * `env`: environment variables to use. Defaults to `process.env`.

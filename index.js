@@ -35,7 +35,7 @@ function launchFirefox(uri, opts) {
     ].join('\n'))
   }
 
-  var ps = spawn(ffox, args, {
+  var ps = spawn(opts.firefoxBinary || ffox, args, {
     env: opts.env || process.env
   })
 
